@@ -2,7 +2,7 @@
 
 var fib = [1, 1];
 
-while (fib[fib.length-1] < 4000000){
+while (fib[fib.length-1] <= 4000000){
   fib.push(fib[fib.length-2]+fib[fib.length-1]);
 }
 
